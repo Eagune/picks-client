@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import { ElAside, ElHeader, ElMain, ElContainer } from 'element-plus'
+import { ElMenu, ElSubmenu, ElMenuItem, ElAside, ElHeader, ElMain, ElContainer } from 'element-plus'
 import App from './App.vue'
 import router from './router'
 import store from './store'
@@ -7,6 +7,9 @@ import store from './store'
 import './styles/reset.scss'
 
 const components = [
+    ElMenu,
+    ElSubmenu,
+    ElMenuItem,
     ElContainer,
     ElHeader,
     ElAside,
